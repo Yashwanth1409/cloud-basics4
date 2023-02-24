@@ -334,7 +334,7 @@ Resources:
       InstanceType:
         Ref: InstanceType
       KeyName:
-        Ref: Yash14
+        Ref: KeyName
       SecurityGroups:
       - Ref: WebServerSecurityGroup
       UserData:
